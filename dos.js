@@ -52,6 +52,11 @@ function mostrar() {
 				cantidadArticulosBebidas = cantidadArticulosBebidas + 1;
 				break;
 
+			case "almacen":
+			case "almacén":
+			case "limpieza":
+				break;
+
 			default:
 				alert("No es ua categoria válida");
 				break;
@@ -61,9 +66,9 @@ function mostrar() {
 	while(respuesta=='s'){}
 
 	document.write(
-		"nombreArticuloMayorPrecio " + nombreArticuloMayorPrecio + "<br>",
-		"cantidadArticulosBebidas " + cantidadArticulosBebidas + "<br>",
-		"nombreArticuloMayorPrecioLacteos "+ nombreArticuloMayorPrecioLacteos + "<br>",
+		"nombre Articulo Mayor Precio " + nombreArticuloMayorPrecio + "<br>",
+		"cantidad Articulos Bebidas " + cantidadArticulosBebidas + "<br>",
+		"nombre Articulo Mayor Precio Lacteos "+ nombreArticuloMayorPrecioLacteos + "<br>",
 	)
 
 }//FIN
