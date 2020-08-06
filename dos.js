@@ -54,7 +54,7 @@ function mostrar() {
 				alert("No es ua categoria válida");
 				break;
 		}
-		prompt("Desea ingresar otra? s/n");
+		respuesta = prompt("Desea ingresar otra? s/n");
 	}
 	while(respuesta=='s'){}
 
