@@ -34,6 +34,7 @@ function mostrar() {
 			if (precioArticulo > MayorPrecio) 
 			{
 				nombreArticuloMayorPrecio = nombreArticulo;
+				MayorPrecio = precioArticulo;
 			}
 		}
 		
@@ -43,6 +44,7 @@ function mostrar() {
 			case "lácteos":
 				if (precioArticulo > MayorPrecioLacteos) {
 					nombreArticuloMayorPrecioLacteos = nombreArticulo;
+					MayorPrecioLacteos = precioArticulo;
 				}
 				break;
 		
