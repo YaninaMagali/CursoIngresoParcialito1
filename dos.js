@@ -59,9 +59,9 @@ function mostrar() {
 	while(respuesta=='s'){}
 
 	document.write(
-		"nombreArticuloMayorPrecio" + nombreArticuloMayorPrecio + "<br>",
-		"cantidadArticulosBebidas" + cantidadArticulosBebidas + "<br>",
-		"nombreArticuloMayorPrecioLacteos"+ nombreArticuloMayorPrecioLacteos + "<br>",
+		"nombreArticuloMayorPrecio " + nombreArticuloMayorPrecio + "<br>",
+		"cantidadArticulosBebidas " + cantidadArticulosBebidas + "<br>",
+		"nombreArticuloMayorPrecioLacteos "+ nombreArticuloMayorPrecioLacteos + "<br>",
 	)
 
 }//FIN
